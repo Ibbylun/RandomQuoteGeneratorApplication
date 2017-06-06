@@ -11,7 +11,7 @@ button.addEventListener('click',);
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 //object of quotes, sources, citations and years
-var quoteSource = [{
+var quoteArray = [{
     quote:'The best preparation for tomorrow is doing your best today.',source:'H. Jackson Brown, Jr.',citation:'',year:''
 }, {
     quote:'We must let go of the life we have planned, so as to accept the one that is waiting for us.',source:'Joseph Campbell',citation:'',year:'' 
@@ -27,3 +27,15 @@ var quoteSource = [{
 var button = document.getElementById('loadQuote'),
     quote = document.getElementById('quote'),
     author = document.getElementById('source');
+
+//Random Quote Function
+var getRandomQuote{
+    var generateRandomNumber = Math.floor(Math.random * quoteArray.length);
+    var getRandomText = quoteArray[generateRandomNumber].quote;
+    var getRandomSource = quoteArray[generateRandomNumber].source;
+    var getRandomCitation = quoteArray[generateRandomNumber].citation;
+    var getRandomYear = quoteArray[generateRandomNumber].year;
+}
+
+
+
