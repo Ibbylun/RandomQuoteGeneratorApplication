@@ -71,10 +71,10 @@ body {
   padding: 15px 0;
   transition: .5s ;
 }
-#loadQuote:hover {
+#loadQuoteBtn:hover {
   background-color: rgba(255,255,255,.25);
 }
-#loadQuote:focus {
+#loadQuoteBtn:focus {
   outline: none;
 }
 
